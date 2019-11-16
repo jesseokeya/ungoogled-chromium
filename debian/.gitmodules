@@ -1,3 +1,0 @@
-[submodule "debian/ungoogled-upstream/ungoogled-chromium"]
-	path = debian/ungoogled-upstream/ungoogled-chromium
-	url = https://github.com/Eloston/ungoogled-chromium.git
