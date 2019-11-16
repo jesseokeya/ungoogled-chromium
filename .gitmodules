@@ -1,0 +1,12 @@
+[submodule "archlinux/ungoogled-chromium"]
+	path = archlinux/ungoogled-chromium
+	url = https://github.com/Eloston/ungoogled-chromium.git
+[submodule "debian/ungoogled-chromium"]
+	path = debian/ungoogled-chromium
+	url = https://github.com/Eloston/ungoogled-chromium.git
+[submodule "macos/ungoogled-chromium"]
+	path = macos/ungoogled-chromium
+	url = https://github.com/Eloston/ungoogled-chromium.git
+[submodule "windows/ungoogled-chromium"]
+	path = windows/ungoogled-chromium
+	url = https://github.com/Eloston/ungoogled-chromium.git
