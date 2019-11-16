@@ -1,0 +1,34 @@
+description: change package name to allow co-existence with original Chromium
+author: Wengling Chen <feiyu2817@gmail.com>
+
+---
+ chrome/android/BUILD.gn                                       | 4 ++--
+ chrome/android/java/res_chromium/values/channel_constants.xml | 2 +-
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/chrome/android/BUILD.gn b/chrome/android/BUILD.gn
+--- a/chrome/android/BUILD.gn
++++ b/chrome/android/BUILD.gn
+@@ -31,8 +31,8 @@ import("java_sources.gni")
+ import("static_initializers.gni")
+ import("trichrome.gni")
+ 
+-chrome_public_manifest_package = "org.chromium.chrome"
+-chrome_public_test_manifest_package = "org.chromium.chrome.tests"
++chrome_public_manifest_package = "org.ungoogled.chromium"
++chrome_public_test_manifest_package = "org.ungoogled.chromium.tests"
+ 
+ chrome_public_jinja_variables =
+     default_chrome_public_jinja_variables +
+diff --git a/chrome/android/java/res_chromium/values/channel_constants.xml b/chrome/android/java/res_chromium/values/channel_constants.xml
+--- a/chrome/android/java/res_chromium/values/channel_constants.xml
++++ b/chrome/android/java/res_chromium/values/channel_constants.xml
+@@ -5,7 +5,7 @@
+ 
+ <resources xmlns:android="http://schemas.android.com/apk/res/android">
+     <!-- The application name displayed to the user. -->
+-    <string name="app_name" translatable="false">Chromium</string>
++    <string name="app_name" translatable="false">Ungoogled Chromium</string>
+     <string name="bookmark_widget_title" translatable="false">Chromium bookmarks</string>
+     <string name="search_widget_title" translatable="false">Chromium search</string>
+ </resources>
