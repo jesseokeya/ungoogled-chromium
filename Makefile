@@ -16,4 +16,4 @@ build-macos:
 	sh ./macos/build.sh
 
 build-windows:
-	python ./windows/build.py
+	python3 ./windows/build.py
